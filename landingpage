@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Книжный магазин</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Добро пожаловать в книжный магазин!</h1>
+      <p>Найдите свою следующую любимую книгу с нами.</p>
+      <a href="#" class="btn">Подробнее</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <div class="feature">
+        <img src="book-icon.png" alt="Каталог книг">
+        <h2>Широкий каталог книг</h2>
+        <p>У нас вы найдете огромный выбор книг разных жанров и авторов.</p>
+      </div>
+      <div class="feature">
+        <img src="delivery-icon.png" alt="Быстрая доставка">
+        <h2>Быстрая доставка</h2>
+        <p>Мы предлагаем быструю и надежную доставку заказанных книг.</p>
+      </div>
+      <div class="feature">
+        <img src="support-icon.png" alt="Круглосуточная поддержка">
+        <h2>Круглосуточная поддержка</h2>
+        <p>Наша команда готова помочь вам в любое время суток.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Книжный магазин. Все права защищены.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
